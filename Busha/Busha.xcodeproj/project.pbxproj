@@ -13,6 +13,7 @@
 		C0C2CBF925914C4D00AC0796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0C2CBF825914C4D00AC0796 /* Preview Assets.xcassets */; };
 		C0C2CC0425914C4D00AC0796 /* BushaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2CC0325914C4D00AC0796 /* BushaTests.swift */; };
 		C0C2CC0F25914C4D00AC0796 /* BushaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0C2CC0E25914C4D00AC0796 /* BushaUITests.swift */; };
+		C4007235293D0BEB00B86610 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4007234293D0BEB00B86610 /* SideMenuView.swift */; };
 		C485E27228F72E27001AA35B /* Buttons.swift in Sources */ = {isa = PBXBuildFile; fileRef = C485E27128F72E27001AA35B /* Buttons.swift */; };
 		C4C0852028F87AB000B99CCF /* ButtonStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0851F28F87AB000B99CCF /* ButtonStyles.swift */; };
 		C4C0852228F87B7E00B99CCF /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0852128F87B7E00B99CCF /* ActivityIndicatorView.swift */; };
@@ -21,6 +22,7 @@
 		C4C0852B290042F200B99CCF /* PrimaryTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0852A290042F200B99CCF /* PrimaryTextField.swift */; };
 		C4C0852F29006AB300B99CCF /* ValidationRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0852E29006AB300B99CCF /* ValidationRule.swift */; };
 		C4C085532901649000B99CCF /* Array+Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C085522901649000B99CCF /* Array+Helpers.swift */; };
+		C4C0858129072F5500B99CCF /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C0858029072F5500B99CCF /* SideMenu.swift */; };
 		C4EFBD7228E61D5600ED6590 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EFBD7128E61D5600ED6590 /* Colors.swift */; };
 		C4EFBD7428E64ED800ED6590 /* SpacingType.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4EFBD7328E64ED800ED6590 /* SpacingType.swift */; };
 		C4EFBD8328E652FF00ED6590 /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C4EFBD7728E652FF00ED6590 /* Roboto-LightItalic.ttf */; };
@@ -68,6 +70,7 @@
 		C0C2CC0A25914C4D00AC0796 /* BushaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BushaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0C2CC0E25914C4D00AC0796 /* BushaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BushaUITests.swift; sourceTree = "<group>"; };
 		C0C2CC1025914C4D00AC0796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4007234293D0BEB00B86610 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
 		C485E27128F72E27001AA35B /* Buttons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Buttons.swift; sourceTree = "<group>"; };
 		C4C0851F28F87AB000B99CCF /* ButtonStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyles.swift; sourceTree = "<group>"; };
 		C4C0852128F87B7E00B99CCF /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
@@ -76,6 +79,7 @@
 		C4C0852A290042F200B99CCF /* PrimaryTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryTextField.swift; sourceTree = "<group>"; };
 		C4C0852E29006AB300B99CCF /* ValidationRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationRule.swift; sourceTree = "<group>"; };
 		C4C085522901649000B99CCF /* Array+Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Helpers.swift"; sourceTree = "<group>"; };
+		C4C0858029072F5500B99CCF /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
 		C4EFBD7128E61D5600ED6590 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		C4EFBD7328E64ED800ED6590 /* SpacingType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpacingType.swift; sourceTree = "<group>"; };
 		C4EFBD7728E652FF00ED6590 /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
@@ -141,6 +145,7 @@
 		C0C2CBF025914C4B00AC0796 /* Busha */ = {
 			isa = PBXGroup;
 			children = (
+				C4C0857E29072F3E00B99CCF /* UI */,
 				C4C0852328F87C7B00B99CCF /* Extensions */,
 				C4EFBD7028E61C3D00ED6590 /* Design System */,
 				C485E26F28F72AED001AA35B /* Elements */,
@@ -180,6 +185,14 @@
 			path = BushaUITests;
 			sourceTree = "<group>";
 		};
+		C4007233293D0BCC00B86610 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				C4C0858029072F5500B99CCF /* SideMenu.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 		C485E26F28F72AED001AA35B /* Elements */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,6 +213,23 @@
 				C4C085522901649000B99CCF /* Array+Helpers.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C4C0857E29072F3E00B99CCF /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C4007233293D0BCC00B86610 /* Components */,
+				C4C0857F29072F4300B99CCF /* Side Menu */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C4C0857F29072F4300B99CCF /* Side Menu */ = {
+			isa = PBXGroup;
+			children = (
+				C4007234293D0BEB00B86610 /* SideMenuView.swift */,
+			);
+			path = "Side Menu";
 			sourceTree = "<group>";
 		};
 		C4EFBD7028E61C3D00ED6590 /* Design System */ = {
@@ -383,6 +413,7 @@
 				C4EFBD7428E64ED800ED6590 /* SpacingType.swift in Sources */,
 				C0C2CBF425914C4B00AC0796 /* ContentView.swift in Sources */,
 				C4C085292900031B00B99CCF /* LoadingView.swift in Sources */,
+				C4C0858129072F5500B99CCF /* SideMenu.swift in Sources */,
 				C4C085532901649000B99CCF /* Array+Helpers.swift in Sources */,
 				C4EFBD9028E6549600ED6590 /* TextStyle.swift in Sources */,
 				C4C0852228F87B7E00B99CCF /* ActivityIndicatorView.swift in Sources */,
@@ -391,6 +422,7 @@
 				C4C0852028F87AB000B99CCF /* ButtonStyles.swift in Sources */,
 				C0C2CBF225914C4B00AC0796 /* BushaApp.swift in Sources */,
 				C4C0852F29006AB300B99CCF /* ValidationRule.swift in Sources */,
+				C4007235293D0BEB00B86610 /* SideMenuView.swift in Sources */,
 				C4EFBD7228E61D5600ED6590 /* Colors.swift in Sources */,
 				C4C0852B290042F200B99CCF /* PrimaryTextField.swift in Sources */,
 			);
