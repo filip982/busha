@@ -28,3 +28,6 @@ struct BushaApp: App {
 
 // 1
 // 2
+
+// 6
+// 7
